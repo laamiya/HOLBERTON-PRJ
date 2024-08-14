@@ -23,7 +23,7 @@ body {
 .main-box {
   display: flex;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .info {
   width: 80%;
@@ -39,7 +39,8 @@ body {
   z-index: -1;
 }
 .days-list {
-  width: 20%;
+  width: 100%;
+  padding: 20px;
 }
 .spot {
   color: #ffff;
@@ -61,16 +62,10 @@ body {
 }
 .list {
   display: flex;
-  flex-direction: column;
   gap: 40px;
-  align-items: center;
-  justify-content: center;
+  
 }
-.days-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 li {
   color: rgb(88, 87, 87);
   font-size: 22px;
@@ -78,4 +73,10 @@ li {
 }
 .day1-btn {
   font-weight: bold;
+  
+}
+
+.day-btn{
+  text-decoration: none;
+ color:black;
 }
