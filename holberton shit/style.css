@@ -1,0 +1,81 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+.pic1 {
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+}
+.pic2 {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+.spot-info {
+  color: #676565;
+  line-height: 1.7;
+  font-size: 14px;
+  width: 350px;
+  border-left: #f0c038 2px solid;
+  padding-left: 15px;
+}
+.main-box {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.info {
+  width: 80%;
+  position: relative;
+}
+.bg-yellow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f0c038;
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+}
+.days-list {
+  width: 20%;
+}
+.spot {
+  color: #ffff;
+  font-size: 42px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.img2-box {
+  padding-top: 200px;
+}
+.day {
+  color: white;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.days-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  color: rgb(88, 87, 87);
+  font-size: 22px;
+  font-weight: 300;
+}
+.day1-btn {
+  font-weight: bold;
+}
